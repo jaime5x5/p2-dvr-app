@@ -1,0 +1,10 @@
+.tabs dd {
+	pposition: relative;
+	margin-bottom: 0 !important;
+	top: 1px;
+	float: left;
+	width: 7rem;
+}
+.accordion dd > a:hover {
+	background: rgb(125, 125, 125);
+}
