@@ -8,3 +8,12 @@
 .accordion dd > a:hover {
 	background: rgb(125, 125, 125);
 }
+.small-block-grid-5 > li {
+	width: 20%;
+	padding: 0 0.625rem 1.25rem;
+	list-style: none;
+}
+.button-group > * > button, .button-group > * .button {
+	border-right: 1px solid;
+	border-color: rgba(255, 255, 255, 0.5);
+}
