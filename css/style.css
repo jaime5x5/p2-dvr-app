@@ -8,3 +8,10 @@
 .accordion dd > a:hover {
 	background: rgb(125, 125, 125);
 }
+.small-block-grid-5 > li a:active{
+	background-color: white;
+}
+.button-group > * > button, .button-group > * .button {
+	border-right: 1px solid;
+	border-color: rgba(255, 255, 255, 0.5);
+}
