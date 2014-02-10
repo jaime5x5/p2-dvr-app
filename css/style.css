@@ -14,6 +14,9 @@
 	background: url("../img/triangular.png");
 }
 .deviceSelect {
+	background: url("../img/rubber_grip.png");
+	border-radius: 25px 25px;
+	color: #CDCDCD;
 	font-family: "ubuntu-mono",sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -22,26 +25,53 @@
 	padding-left: 0;
 	padding-right: 0;
 	display: block;
+	margin-top: 5px;
 	margin-bottom: 0;
+	box-shadow: inset 1px 2px 10px #C4C4C4;
 }
-.small-block-grid-5 > li a:active{
-	background-color: white;
+.deviceselect {
+
 }
-.onOff{
-	background-color: green;
+
+.onOff {
+	background: url("../img/rubber_grip.png");
+	border-radius: 25px 25px;
+	color: #CDCDCD;
 	font-family: "source-code-pro",sans-serif;
 	font-style: normal;
 	font-size: 2rem;
 	font-weight: 900;
 	width: 138px;
 	text-align: center;
+	padding-top: 10px;
 	padding-left: 0;
 	padding-right: 0;
 	display: block;
 	margin-bottom: 0;
 	margin-left: 8px;
+	box-shadow: inset 1px 2px 10px #C4C4C4;
+	text-shadow: 1px 1px 1px #000, 3px 3px 5px #5E5A5A;
 }
+.onoff li:first-of-type {
+	/*background-color: green;*/
+	border-radius: 25px 25px;
+	margin-bottom: 0;
+	padding-top: 15px;
+}
+
+.onoff li:last-of-type {
+	/*background-color: red;*/
+	border-radius: 25px 25px;
+	margin-bottom: 0;
+	padding-top: 15px;
+}
+
 .ctrl-tg-ml {
+	color: #5E5A5A;
+	background: url("../img/squared_metal.png");
+	border-radius: 25px 25px;
+	border: 3px solid #777;
+	border: 2px solid darkgrey;
 	font-family: "p22-franklin-caslon",serif;
 	font-style: normal;
 	font-weight: 400;
@@ -51,7 +81,8 @@
 	padding-left: 0;
 	padding-right: 0;
 	display: block;
-	margin-bottom: .5rem;
+	margin: .5rem 0;
+	box-shadow: inset 1px 2px 10px #C4C4C4;
 
 }
 
