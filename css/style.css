@@ -8,13 +8,39 @@
 .accordion dd > a:hover {
 	background: rgb(125, 125, 125);
 }
+
+/*______index_______*/
+.deviceSelect {
+	font-family: "ubuntu-mono",sans-serif;
+	width: 55px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-bottom: 0;
+}
 .small-block-grid-5 > li a:active{
 	background-color: white;
 }
-.button-group > * > button, .button-group > * .button {
-	border-right: 1px solid;
-	border-color: rgba(255, 255, 255, 0.5);
+.onOff{
+	width: 138px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-bottom: 0;
 }
+.ctrl-tg-ml {
+	width: 250px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-bottom: .5rem;
+
+}
+
+
 /*************tv guide page***************/
 .medialib {
 	width: 320px;
