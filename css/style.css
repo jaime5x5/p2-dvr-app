@@ -10,8 +10,13 @@
 }
 
 /*______index_______*/
+.home {
+	background: url("../img/triangular.png");
+}
 .deviceSelect {
 	font-family: "ubuntu-mono",sans-serif;
+	font-style: normal;
+	font-weight: 700;
 	width: 55px;
 	text-align: center;
 	padding-left: 0;
@@ -23,15 +28,25 @@
 	background-color: white;
 }
 .onOff{
+	background-color: green;
+	font-family: "source-code-pro",sans-serif;
+	font-style: normal;
+	font-size: 2rem;
+	font-weight: 900;
 	width: 138px;
 	text-align: center;
 	padding-left: 0;
 	padding-right: 0;
 	display: block;
 	margin-bottom: 0;
+	margin-left: 8px;
 }
 .ctrl-tg-ml {
-	width: 250px;
+	font-family: "p22-franklin-caslon",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.75rem;
+	width: 300px;
 	text-align: center;
 	padding-left: 0;
 	padding-right: 0;
